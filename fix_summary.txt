@@ -1,0 +1,4 @@
+❌ No Auto-Healing Data Available
+
+No AI analysis or fix data was generated.
+Please review the test failure manually.
