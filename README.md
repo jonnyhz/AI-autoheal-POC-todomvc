@@ -28,7 +28,7 @@ This example demonstrates a modular architecture for implementing self-healing c
 ## 🚀 Quick Test Instructions
 
 ### Option 1: Break the App
-1. Edit `src/components/header/header.js` line 8: change "todos" to "todo's"
+1. Edit `src/components/header/header.js` line 28: change "todos" to "todo's"
 2. Run `npm run test:e2e` to see failure
 3. Check `cypress/failures/` for captured artifacts
 4. Build AI payload: `node scripts/ai-payload-builder.js cypress/failures/new-todo-clean.html`

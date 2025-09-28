@@ -7,12 +7,14 @@
   },
   "scripts": {
     "start": "PORT=9300 BROWSER=none react-scripts start",
+    "startOnWin": "SET PORT=9300 && SET BROWSER=none && react-scripts start",
     "build": "CI=false react-scripts build",
     "format": "prettier --write 'src/**/*.{js,jsx}'",
     "lint": "eslint 'src/**/*.{js,jsx}'",
     "test": "npm run test:unit",
     "test:unit": "react-scripts test --watchAll=false",
     "test:e2e": "start-server-and-test start http://localhost:9300 cypress",
+    "test:e2eOnWin": "start-server-and-test startOnWin http://localhost:9300 cypress",
     "cypress": "cypress run"
   },
   "dependencies": {
